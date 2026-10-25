@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:includeFontPadding="false"
+            android:text="@string/phq9_instruction"
+            android:textColor="@color/primary"
+            android:textSize="14sp" />
+
+        <!-- Q1 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/bg_stroke">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:includeFontPadding="false"
+                    android:text="@string/phq9_q1"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_q1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="vertical">
+
+                    <RadioButton android:id="@+id/rg_q1_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q1_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q1_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q1_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q2 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/bg_stroke">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q2" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q2_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q2_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q2_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q2_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q3 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/bg_stroke">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q3" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q3_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q3_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q3_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q3_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q4 -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q4" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q4_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q4_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q4_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q4_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q5 -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q5" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q5_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q5_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q5_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q5_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q6 -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q6" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q6_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q6_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q6_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q6_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q7 -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q7" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q7_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q7_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q7_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q7_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q8 -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q8" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q8_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q8_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q8_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q8_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Q9 (suicidal ideation - safety override) -->
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="0dp" app:strokeColor="@color/bg_stroke">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/poppins_semi_bold" android:includeFontPadding="false" android:text="@string/phq9_q9" android:textSize="13sp" />
+                <RadioGroup android:id="@+id/rg_q9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical">
+                    <RadioButton android:id="@+id/rg_q9_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_never" />
+                    <RadioButton android:id="@+id/rg_q9_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_several_days" />
+                    <RadioButton android:id="@+id/rg_q9_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_more_than_half" />
+                    <RadioButton android:id="@+id/rg_q9_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phq9_nearly_every_day" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_submit_phq9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:text="@string/next_step"
+            android:textColor="@color/white"
+            app:cornerRadius="24dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

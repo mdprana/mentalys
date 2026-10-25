@@ -1,0 +1,102 @@
+[versions]
+agp = "9.2.0"
+core = "4.6.2"
+kotlin = "2.2.10"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+
+# new dependency
+navigationFragmentKtx = "2.8.3"
+glide = "4.16.0"
+playServicesLocation = "21.3.0"
+playServicesMaps = "19.0.0"
+retrofit = "2.11.0"
+roomCompiler = "2.7.0"
+ksp = "2.3.2"
+okhttp = "4.12.0"
+lifecycleLivedataKtx = "2.8.7"
+preference = "1.2.1"
+datastorePreferences = "1.1.1"
+pagingRuntimeKtx = "3.3.4"
+googleSecrets = "2.0.1"
+generativeai = "0.9.0"
+cameraxVersion = "1.4.0"
+coreSplashscreen = "1.0.1"
+liquidSwipe = "1.0.0"
+circleimageview = "3.1.0"
+shimmer = "0.5.0"
+viewpager2 = "1.1.0"
+flexbox = "3.0.0"
+lottie = "6.6.1"
+browser = "1.8.0"
+uikit = "2.0.0-SANDBOX"
+ucrop = "2.2.8"
+tensorflowLite = "2.16.1"
+tensorflowLiteSelectTfOps = "2.16.1"
+mlkitFace = "16.1.7"
+tarsosDsp = "2.5"
+jlibrosa = "dcf67da644"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "roomCompiler" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+core = { module = "io.noties.markwon:core", version.ref = "core" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# new dependency
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomCompiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomCompiler" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleLivedataKtx" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-preference = { module = "androidx.preference:preference", version.ref = "preference" }
+androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "pagingRuntimeKtx" }
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraxVersion" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraxVersion" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraxVersion" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+liquid-swipe = { module = "com.cuberto:liquid-swipe", version.ref = "liquidSwipe" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+uikit = { module = "com.midtrans:uikit", version.ref = "uikit" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+flexbox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexbox" }
+androidx-browser = { module = "androidx.browser:browser", version.ref = "browser" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+tensorflow-lite = { module = "org.tensorflow:tensorflow-lite", version.ref = "tensorflowLite" }
+tensorflow-lite-select-tf-ops = { module = "org.tensorflow:tensorflow-lite-select-tf-ops", version.ref = "tensorflowLiteSelectTfOps" }
+mlkit-face-detection = { module = "com.google.mlkit:face-detection", version.ref = "mlkitFace" }
+tarsos-dsp = { module = "be.tarsos.dsp:core", version.ref = "tarsosDsp" }
+jlibrosa = { module = "com.github.Subtitle-Synchronizer:jlibrosa", version.ref = "jlibrosa" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+google-secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "googleSecrets" }
+

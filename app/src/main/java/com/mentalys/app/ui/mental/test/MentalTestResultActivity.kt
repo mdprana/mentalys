@@ -1,0 +1,219 @@
+package com.mentalys.app.ui.mental.test
+
+import android.content.Intent
+import android.os.Bundle
+import android.util.Log
+import android.view.View
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.mentalys.app.R
+import com.mentalys.app.databinding.ActivityMentalTestResultBinding
+import com.mentalys.app.ui.activities.MainActivity
+import com.mentalys.app.ui.activities.TestGemini
+import com.mentalys.app.ui.article.ArticleAdapter
+import com.mentalys.app.ui.specialist.SpecialistActivity
+import com.mentalys.app.ui.viewmodels.ViewModelFactory
+import com.mentalys.app.utils.Resource
+
+class MentalTestResultActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMentalTestResultBinding
+    private lateinit var articleAdapter: ArticleAdapter
+    private val viewModel: MentalTestResultViewModel by viewModels {
+        ViewModelFactory.getInstance(this)
+    }
+
+    var prediction: String? = ""
+    var confidencePercentage: String? = ""
+    var testName: String? = ""
+    var imageUri: String? = ""
+    var audioUri: String? = ""
+    var emotionLabel: String? = ""
+
+    // Data class to hold test result
+    data class TestResult(
+        var prediction: String?,
+        val confidencePercentage: String?,
+        val testName: String?,
+        val imageUri: String? = null,
+        val audioUri: String? = null,
+        val emotionLabel: String? = null
+    )
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMentalTestResultBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        testName = intent.getStringExtra(EXTRA_TEST_NAME)
+
+        val testResult = extractTestResult()
+        configureTestResultUI(testResult)
+        setupArticleRecyclerView()
+        observeArticles()
+
+        binding.closeButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            startActivity(intent)
+        }
+
+        binding.geminiCard.setOnClickListener {
+            val intent = Intent(this, TestGemini::class.java)
+            when (testName) {
+                "face" -> {
+                    intent.putExtra(TestGemini.EXTRA_PROMPT, getString(R.string.prompt, prediction, confidencePercentage))
+                }
+                "voice" -> {
+                    intent.putExtra(TestGemini.EXTRA_PROMPT, getString(R.string.prompt_voice, prediction, emotionLabel, confidencePercentage))
+                }
+                "quiz" -> {
+                    intent.putExtra(TestGemini.EXTRA_PROMPT, getString(R.string.prompt, prediction, confidencePercentage))
+                }
+                else -> {
+                    intent.putExtra(TestGemini.EXTRA_PROMPT, getString(R.string.prompt, prediction, confidencePercentage))
+                }
+            }
+            startActivity(intent)
+        }
+    }
+
+    private fun extractTestResult(): TestResult {
+        prediction = intent.getStringExtra(EXTRA_PREDICTION)
+        confidencePercentage = intent.getStringExtra(EXTRA_CONFIDENCE_PERCENTAGE)
+        testName = intent.getStringExtra(EXTRA_TEST_NAME)
+        imageUri = intent.getStringExtra(EXTRA_IMAGE_URI)
+        audioUri = intent.getStringExtra(EXTRA_AUDIO_URI)
+        emotionLabel = intent.getStringExtra(EXTRA_EMOTION_LABEL)
+        return TestResult(
+            // FIX: removed hardcoded "ADHD" fallback
+            prediction = prediction ?: getString(R.string.unknown_result),
+            confidencePercentage = confidencePercentage,
+            testName = testName,
+            imageUri = imageUri,
+            audioUri = audioUri,
+            emotionLabel = emotionLabel
+        )
+    }
+
+    private fun configureTestResultUI(testResult: TestResult) {
+        val prediction = testResult.prediction ?: return
+        val percentage = "${testResult.confidencePercentage}"
+        val emotion = testResult.emotionLabel
+
+        if (testResult.testName == "face") {
+            binding.prediction.text =
+                getString(R.string.our_ml_model_predicts_that_you_may_have_signs_of, prediction)
+            binding.predictionPercentage.text = getString(R.string.confidence3, percentage)
+        } else if (testResult.testName == "voice") {
+            binding.prediction.text = getString(R.string.our_ml_model_predicts_that_you_may_have_signs_of, prediction)
+            binding.predictionPercentage.text = "${getString(R.string.confidence3, percentage)}%"
+        } else {
+            binding.prediction.text = getString(R.string.our_ml_model_predicts_that_you_may_have_signs_of, prediction)
+            binding.predictionPercentage.text = "${getString(R.string.confidence3, percentage)}%"
+        }
+
+        when (prediction) {
+            "Mental Health Condition", "Potential Mental Health Condition", "Depression" -> {
+                setupMentalHealthConditionUI()
+            }
+
+            "No Mental Health Condition", "NonDepression" -> {
+                setupNoMentalHealthConditionUI()
+            }
+
+            else -> {
+                setupCustomPredictionUI(prediction)
+            }
+        }
+    }
+
+    private fun setupMentalHealthConditionUI() {
+        binding.encourage.text = getString(R.string.encouragement_mental_health)
+        binding.predictionExplanation.visibility = View.GONE
+        binding.consultButton.text = getString(R.string.consult_to_professionals)
+        binding.consultButton.setOnClickListener {
+            val intent = Intent(this, SpecialistActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            startActivity(intent)
+        }
+        viewModel.getMentalStateArticle("depression")
+    }
+
+    private fun setupNoMentalHealthConditionUI() {
+        binding.encourage.text = getString(R.string.encouragement_no_mental_issues)
+        binding.predictionExplanation.visibility = View.GONE
+        binding.consultButton.text = getString(R.string.back_to_home)
+        binding.consultButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            startActivity(intent)
+        }
+        viewModel.getAllArticle()
+    }
+
+    private fun setupCustomPredictionUI(prediction: String) {
+        val mentalState = when (prediction) {
+            "psychot depresn" -> "depression"
+            "sleep disord" -> prediction.replace(" ", "_")
+            else -> prediction
+        }
+
+        val encourageResId = resources.getIdentifier("encouragement_$mentalState", "string", packageName)
+        if (encourageResId != 0) {
+            binding.encourage.text = getString(encourageResId)
+        }
+
+        val explanationResId = resources.getIdentifier("explanation_$mentalState", "string", packageName)
+        if (explanationResId != 0) {
+            binding.predictionExplanation.text = getString(explanationResId)
+        }
+        configureConsultButton()
+        viewModel.getMentalStateArticle("depression")
+    }
+
+    private fun setupArticleRecyclerView() {
+        articleAdapter = ArticleAdapter()
+        articleAdapter.setLoadingState(true)
+
+        binding.articleRecyclerView.apply {
+            layoutManager = LinearLayoutManager(
+                this@MentalTestResultActivity,
+                LinearLayoutManager.VERTICAL,
+                false
+            )
+            adapter = articleAdapter
+        }
+    }
+
+    private fun observeArticles() {
+        viewModel.mentalStateArticles.observe(this) { resource ->
+            when (resource) {
+                is Resource.Loading -> articleAdapter.setLoadingState(true)
+                is Resource.Success -> {
+                    articleAdapter.setLoadingState(false)
+                    articleAdapter.submitList(resource.data)
+                    Log.d("Article Retrieved", resource.data.toString())
+                }
+                is Resource.Error -> Log.d("MentalTestResultActivity", resource.error)
+            }
+        }
+    }
+
+    private fun configureConsultButton() {
+        binding.consultButton.setOnClickListener {
+            val intent = Intent(this, SpecialistActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            startActivity(intent)
+        }
+    }
+
+    companion object {
+        const val EXTRA_TEST_NAME = "extra_test_name"
+        const val EXTRA_PREDICTION = "extra_label"
+        const val EXTRA_CONFIDENCE_PERCENTAGE = "extra_confidence_percentage"
+        const val EXTRA_IMAGE_URI = "extra_image_uri"
+        const val EXTRA_AUDIO_URI = "extra_audio_uri"
+        const val EXTRA_EMOTION_LABEL = "extra_emotion_label"
+    }
+}

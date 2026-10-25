@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mentalys</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+
+    <string name="featured_title_1">Tidur Lebih Nyenyak: Cara Mengelola Kecemasan dan Mengurangi Stres untuk Pikiran yang Lebih Sehat</string>
+    <string name="featured_title_2">Ceri: Sumber alami melatonin untuk membantu istirahat.</string>
+    <string name="featured_title_3">Alpukat: Lemak sehat untuk menjaga ketajaman pikiran</string>
+    <string name="featured_description_1">Kesulitan tidur di malam hari? Pelajari teknik praktis untuk menenangkan kecemasan, mengelola stres, dan meningkatkan rutinitas tidur Anda. Temukan bagaimana perubahan kecil dalam kebiasaan harian Anda dapat memberikan tubuh dan pikiran yang lebih tenang</string>
+    <string name="featured_description_2">Sumber alami melatonin untuk membantu istirahat.</string>
+    <string name="featured_description_3">Lemak sehat untuk menjaga ketajaman pikiran</string>
+
+    <string name="lihat_semua">Lihat semua</string>
+
+    <string name="greeting_user">"Selamat datang, %1$s"</string>
+
+    <string name="good_morning">Selamat Pagi</string>
+    <string name="good_afternoon">Selamat Siang</string>
+    <string name="good_evening">Selamat Sore</string>
+    <string name="good_night">Selamat Malam</string>
+
+    <string name="alert_login">Tolong login untuk menggunakan fitur ini</string>
+    <!-- CardMenu Homepage -->
+    <string name="menu_konsultasi">Konsultasi Psikiater</string>
+    <string name="menu_klinik_psikologi">Klinik \n Psikologi</string>
+    <string name="menu_cek_mental">Cek Kesehatan Mental</string>
+    <string name="menu_artikel_mental">Artikel Kesehatan Mental</string>
+
+    <!-- Klinik Homepage -->
+    <string name="rekomendasi_klinik">Rekomendasi Klinik Psikologi Terdekat</string>
+
+    <!-- Psikiater Homepage -->
+    <string name="rekomendasi_psikiater">Konsultasi Spesialis</string>
+
+    <!-- Klinik Homepage -->
+    <string name="rekomendasi_artikel">Wawasan Kesehatan Mental</string>
+
+    <string name="jadwal">08.00 - 18.00</string>
+    <string name="nama_dokter">Dr. Made Agus</string>
+    <string name="biaya_konsultasi">Biaya Konsultasi</string>
+    <string name="harga">Rp 20.000,00</string>
+    <string name="text_banner">Peduli Mental, Peduli Diri\n- Bersama Mentalys</string>
+
+
+    <!-- Daily Tips  homepagr-->
+    <string name="mindfulness_tip_title">Tip Kesadaran Diri</string>
+    <string name="mindfulness_tip_description">Luangkan waktu 5 menit hari ini untuk fokus pada pernapasan Anda. Tarik napas dalam selama 4 detik, tahan selama 4 detik, dan buang napas selama 4 detik.</string>
+
+    <!-- Positive Thinking -->
+    <string name="positive_thinking_title">Berpikir Positif</string>
+    <string name="positive_thinking_description">Mulailah hari Anda dengan mengatakan satu hal positif tentang diri sendiri. Bisa berupa pencapaian kecil atau kualitas yang Anda sukai.</string>
+
+    <!-- Stress Relief -->
+    <string name="stress_relief_title">Mengurangi Stres</string>
+    <string name="stress_relief_description">Ketika merasa kewalahan, beristirahatlah dan keluar untuk menghirup udara segar. Beberapa menit di alam dapat membantu menyegarkan pikiran Anda.</string>
+
+    <!-- Gratitude Exercise -->
+    <string name="gratitude_exercise_title">Latihan Rasa Syukur</string>
+    <string name="gratitude_exercise_description">Tuliskan 3 hal yang Anda syukuri hari ini. Ini dapat membantu mengubah pola pikir ke arah yang lebih positif.</string>
+
+    <!-- Physical Activity Tip -->
+    <string name="physical_activity_tip_title">Tip Aktivitas Fisik</string>
+    <string name="physical_activity_tip_description">Cobalah sesi peregangan selama 10 menit. Ini membantu meredakan ketegangan dan meningkatkan suasana hati!</string>
+
+    <!-- Sleep Hygiene -->
+    <string name="sleep_hygiene_title">Kebersihan Tidur</string>
+    <string name="sleep_hygiene_description">Untuk meningkatkan kualitas tidur, hindari layar setidaknya 30 menit sebelum tidur. Biarkan pikiran Anda rileks.</string>
+
+
+    <!-- Pilih Test Mental -->
+    <string name="pilih_test_mental">Silakan pilih cara untuk melakukan tes mental</string>
+    <string name="voice_check">Analisis Nada Bicara</string>
+    <string name="signature_check">Analisis Wajah</string>
+    <string name="quiz_check">Isi Kuesioner</string>
+    <string name="start_test">Mulai Tes</string>
+
+    <!-- Quiz Test -->
+    <string name="quiz_test_instruction">Silakan isi kuesioner di bawah ini</string>
+    <!-- Test Page 1 -->
+    <string name="question_1">Masukkan umur Anda</string>
+    <string name="hint_question_1">Jawaban Anda</string>
+    <string name="question_2">Apakah Anda merasa cemas?</string>
+    <string name="question_3">Apakah Anda mengalami panik?</string>
+    <string name="question_4">Apakah Anda bernapas cepat?</string>
+    <string name="question_5">Apakah Anda berkeringat?</string>
+    <string name="question_6">Apakah Anda mengalami kesulitan berkonsentrasi?</string>
+    <string name="question_7">Apakah Anda mengalami kesulitan tidur?</string>
+    <string name="question_8">Apakah Anda mengalami kesulitan dalam bekerja?</string>
+    <string name="question_9">Apakah Anda merasa putus asa?</string>
+    <string name="question_10">Apakah Anda sering merasa marah?</string>
+
+    <string name="question_11">Apakah Anda mudah bereaksi berlebihan?</string>
+    <string name="question_12">Apakah ada perubahan pola makan?</string>
+    <string name="question_13">Apakah Anda pernah memiliki pikiran untuk bunuh diri?</string>
+    <string name="question_14">Apakah Anda sering merasa lelah?</string>
+    <string name="question_15">Apakah Anda memiliki teman dekat?</string>
+    <string name="question_16">Apakah Anda kecanduan media sosial?</string>
+    <string name="question_17">Apakah Anda mengalami kenaikan berat badan?</string>
+    <string name="question_18">Apakah Anda seorang introvert?</string>
+    <string name="question_19">Apakah sering muncul ingatan yang membuat stres?</string>
+    <string name="question_20">Apakah Anda sering mengalami mimpi buruk?</string>
+
+    <!-- Test Page 3 -->
+    <string name="question_21">Apakah Anda menghindari orang atau aktivitas tertentu?</string>
+    <string name="question_22">Apakah Anda sering merasa negatif?</string>
+    <string name="question_23">Apakah Anda sering menyalahkan diri sendiri?</string>
+    <string name="question_24">Apakah Anda mengalami halusinasi?</string>
+    <string name="question_25">Apakah Anda memiliki perilaku yang repetitif?</string>
+    <string name="question_26">Apakah gejala Anda muncul secara musiman?</string>
+    <string name="question_27">Apakah Anda merasa lebih berenergi dari biasanya</string>
+
+
+    <string name="answer_yes">Ya</string>
+    <string name="answer_no">Tidak</string>
+    <string name="back">Kembali</string>
+    <string name="next">Berikutnya</string>
+    <string name="send">Kirim</string>
+
+    <!-- Voice Test -->
+    <string name="title_voice_test">Analisis Nada Bicara</string>
+    <string name="voice_test_instruction">Silakan ceritakan tentang keresahan\natau diri Anda</string>
+    <string name="time_recoding">00:00:00</string>
+
+    <!-- Nama resource legacy dipertahankan untuk kompatibilitas; teks pengguna memakai analisis wajah. -->
+    <string name="title_handwriting_test">Analisis Wajah</string>
+    <string name="handwriting_test_instruction">Posisikan wajah Anda dengan jelas di kamera untuk analisis di perangkat.</string>
+    <string name="gallery">Galeri</string>
+    <string name="camera">Kamera</string>
+    <string name="analyse">Analisis</string>
+    <string name="failed_open_camera">Gagal membuka kamera</string>
+    <string name="failed_take_picture">Gagal mengambil gambar</string>
+    <string name="take_picture">Ambil gambar</string>
+    <string name="reverse_camera">Balik kamera\n</string>
+    <string name="permision_request_granted">Izin telah diberikan</string>
+    <string name="permision_request_denied">Izin ditolak</string>
+
+    <!-- Mental State Article -->
+    <!-- Encouragement Message -->
+    <string name="encouragement_anxiety">
+        "Hai, pejuang! \uD83C\uDF1F\n\nAku tahu beberapa hari terasa membebani, pikiranmu berdetak dengan berbagai pikiran, dan kecemasan datang tanpa undangan. Tapi ingat ini: kamu jauh lebih kuat dari yang kau sadari. Setiap langkah kecil yang kau ambil adalah kemenangan, dan keberanianmu untuk terus berjuang sungguh menginspirasi. Tidak apa-apa untuk meminta bantuan dan berbicara tentang perasaanmu - perasaanmu valid, dan kamu pantas untuk sembuh. Kamu dicintai, kamu berharga, dan harapan ada dalam setiap langkah perjalananmu. \uD83C\uDFBF\uD83D\uDCAA"
+    </string>
+    <string name="encouragement_MDD">
+        "Kamu tidak sama dengan depresimu. \uD83C\uDF1F\n\nAku tahu bebannya terasa berat, dan beberapa hari bahkan bangun dari tempat tidur terasa mustahil. Tapi ingat, setiap usaha kecil itu berarti. Ketangguhanmu luar biasa, dan bahkan di hari-hari tersulit, kamu layak mendapatkan cinta dan kebahagiaan. Jangan takut untuk meminta bantuan - kamu tidak sendirian dalam perjuangan ini. Penyembuhan itu mungkin, dan kamu lebih kuat dari yang kau kira. \uD83C\uDFBF\uD83D\uDCAA"
+    </string>
+    <string name="encouragement_ASD">
+        "Pikiranmu melihat dunia dengan cara yang unik. \uD83C\uDF1F\n\nPemikiran, perspektif, dan bakatmu sangat berharga. Dunia membutuhkan keaslian dan kecerlanganmu. Tidak apa-apa untuk menerima dirimu apa adanya, dan ketahuilah bahwa dukungan selalu ada untukmu. Teruslah menjadi dirimu sendiri, karena kamu luar biasa apa adanya. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_Loneliness">
+        "Kamu tidak sendirian. \uD83C\uDF1F\n\nKesepian bisa terasa menyendirikan, tapi ingat ada orang-orang yang peduli padamu dan ingin terhubung. Ambil langkah kecil untuk terhubung - sebuah percakapan, senyuman, atau bahkan meminta bantuan. Kamu pantas mendapatkan cinta dan koneksi. Kehadiranmu bermakna. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_bipolar">
+        "Kamu lebih dari sekadar tinggi dan rendahmu. \uD83C\uDF1F\n\nGangguan bipolar mungkin membawa perubahan ekstrem, tapi kekuatan dan ketangguhanmu membantumu mengarungi gelombang ini. Dukungan ada di sini, dan keseimbangan itu mungkin. Teruslah berjalan, karena perjalananmu penting. Kamu tidak sendirian. \uD83C\uDFBF\uD83D\uDCAA"
+    </string>
+    <string name="encouragement_PTSD">
+        "Trauma tidak mendefinisikanmu. \uD83C\uDF1F\n\nMenyembuhkan diri dari PTSD membutuhkan waktu dan keberanian, tapi setiap langkah ke depan adalah kemenangan. Kamu kuat, dan masa lalumu tidak menentukan masa depanmu. Carilah dukungan - kamu pantas mendapatkan kedamaian dan penyembuhan. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_sleep_disord">
+        "Istirahat ada dalam jangkauanmu. \uD83C\uDF1F\n\nTantangan tidur bisa sulit, tapi bersabarlah pada dirimu sendiri. Ambil langkah kecil untuk memperbaiki kebiasaan tidurmu. Kamu pantas mendapatkan istirahat dan pemulihan. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_OCD">
+        "Kamu lebih kuat dari pikiranmu. \uD83C\uDF1F\n\nOCD tidak mendefinisikanmu. Setiap momen ketangguhan adalah kemenangan. Bantuan tersedia, dan kamu tidak sendirian. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_ADHD">
+        "Pikiranmu itu dinamis dan luar biasa. \uD83C\uDF1F\n\nHidup dengan ADHD memang penuh tantangan, tetapi kreativitas, energi, dan cara berpikir unikmu adalah kekuatan, bukan kelemahan. Tidak apa-apa mencari struktur, meminta bantuan, dan merayakan setiap pencapaian, sekecil apa pun. Kamu mampu, tangguh, dan pantas meraih kesuksesan. Teruslah maju - kamu pasti bisa! \uD83C\uDFBF\uD83D\uDCAA"
+    </string>
+    <string name="encouragement_PDD">
+        "Perjalananmu berharga, dan setiap kemajuan itu penting. \uD83C\uDF1F\n\nHidup dengan PDD mungkin terasa seperti pendakian yang sulit, tetapi ketangguhanmu sungguh luar biasa. Ingatlah, tidak apa-apa untuk bergerak perlahan, meminta bantuan, dan mengakui setiap usaha yang kamu lakukan. Setiap langkah maju, sekecil apa pun, adalah kemenangan. Kamu tidak sendirian, dan hari-hari cerah menantimu. Teruslah percaya pada dirimu sendiri. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_ED">
+        "Kamu lebih dari sekadar penampilan atau angka di timbangan. \uD83C\uDF1F\n\nMenghadapi gangguan makan itu tidak mudah, tetapi kekuatan dan tekadmu untuk bertahan sungguh luar biasa. Ingat, tubuhmu layak mendapatkan cinta dan perawatan, sama seperti dirimu. Tidak apa-apa meminta bantuan dan melangkah perlahan. Setiap usaha menuju pemulihan adalah kemenangan besar. Kamu berharga, dicintai, dan pantas merasakan damai dengan dirimu sendiri. \uD83C\uDFBF"
+    </string>
+
+    <string name="encouragement_psychot_depresn">
+        "Kamu tidak sendirian dalam pertarungan ini. \uD83C\uDF1F\n\nDepresi psikotik sangatlah sulit, tapi hal itu tidak mendefinisikan nilai atau kekuatanmu. Teruslah berjuang, bahkan ketika kegelapan terasa membludak. Setiap langkah menuju penyembuhan itu penting, dan kamu mampu menemukan cahaya lagi. Carilah bantuan - pemulihan itu mungkin, dan kamu pantas mendapatkan kedamaian. \uD83C\uDFBF"
+    </string>
+    <string name="encouragement_mental_health">
+        "Kamu tidak didefinisikan oleh perjuanganmu. \uD83C\uDF1F\n\nTantangan kesehatan mental bisa terasa menyendirikan dan membingungkan, tapi kamu sangat kuat karena menghadapinya setiap hari. Keberanianmu, bahkan di saat-saat tersulit, adalah sesuatu yang patut dibanggakan. Tidak apa-apa untuk tidak memiliki semua jawaban, dan tidak apa-apa untuk meminta bantuan. Penyembuhan adalah sebuah perjalanan, dan setiap langkah kecil yang kau ambil itu penting. Kamu pantas mendapatkan dukungan, perhatian, dan masa depan yang lebih cerah. Teruslah berjalan - harapan selalu ada di depan. \uD83C\uDFBF\uD83D\uDCAA"
+    </string>
+    <string name="encouragement_no_mental_issues">
+        "Kamu kuat dan tangguh. \uD83C\uDF1F\n\nKamu mungkin tidak sedang mengalami masalah kesehatan mental saat ini, tapi ingat bahwa menjaga kesehatan mentalmu sama pentingnya. Teruslah memelihara dirimu, membangun kebiasaan positif, dan mencari dukungan saat dibutuhkan. Kedamaian pikiranmu sangat berharga. \uD83C\uDFBF"
+    </string>
+
+    <!-- Explanation of Result -->
+    <string name="explanation_anxiety">
+        "Kecemasan adalah kondisi kesehatan mental yang ditandai dengan perasaan khawatir, takut, atau gugup yang berlebihan dan terus-menerus. Hal ini dapat memengaruhi pikiran, tubuh, dan aktivitas sehari-hari. Gejala dapat mencakup detak jantung cepat, sesak napas, kesulitan berkonsentrasi, insomnia, atau bahkan serangan panik. Penyebabnya dapat bervariasi dari stres kehidupan, trauma masa lalu, hingga ketidakseimbangan kimia di otak.\n\nKecemasan dapat diobati melalui terapi, obat-obatan, perubahan gaya hidup, atau kombinasi pendekatan ini. Ingat, kamu tidak sendirian dalam perjalanan ini. Bantuan tersedia, dan setiap langkah menuju pemulihan adalah langkah menuju masa depan yang lebih sehat dan cerah. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_MDD">
+        "Gangguan Depresi Mayor (Major Depressive Disorder/MDD) adalah kondisi yang ditandai dengan perasaan sedih berkepanjangan, putus asa, dan hilangnya minat pada aktivitas yang dulu disukai. Gejala dapat mencakup kelelahan, perubahan pola tidur dan nafsu makan, serta kesulitan berkonsentrasi. MDD dapat disebabkan oleh faktor biologis, lingkungan, atau psikologis.\n\nOpsi pengobatan seperti terapi, obat-obatan, dan perubahan gaya hidup dapat membantu. Ingat, kamu tidak sendirian, dan mencari dukungan adalah tanda kekuatan. Ada harapan untuk pemulihan. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_ASD">
+        "Gangguan Spektrum Autis (Autism Spectrum Disorder/ASD) memengaruhi cara seseorang berkomunikasi dan berinteraksi dengan orang lain. Setiap orang dengan ASD mengalaminya secara berbeda. Biasanya mencakup tantangan dalam interaksi sosial, sensitivitas sensorik, dan rutinitas.\n\nPemahaman dan dukungan dapat membuat perbedaan besar. Ingat, keunikanmu adalah kekuatanmu, dan ada orang-orang yang peduli padamu. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_Loneliness">
+        "Kesepian dapat memengaruhi kesehatan mental dan fisik, membuat Anda merasa terputus dan terisolasi. Hal ini dapat dipicu oleh perubahan hidup, kehilangan, atau kurangnya koneksi sosial.\n\nMembangun hubungan, mencari kelompok dukungan, atau mendapatkan bantuan profesional dapat mengurangi kesepian. Ingat, kamu penting, dan koneksi selalu mungkin. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_bipolar">
+        "Gangguan bipolar melibatkan siklus periode berenergi tinggi (mania) dan periode berenergi rendah (depresi). Hal ini memengaruhi suasana hati, energi, dan aktivitas sehari-hari.\n\nPengobatan dengan terapi, obat-obatan, dan sistem dukungan dapat membantu mengelola perubahan ini. Ingat, bantuan tersedia, dan pemulihan itu mungkin. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_PTSD">
+        "Gangguan Stres Pasca-Trauma (Post-Traumatic Stress Disorder/PTSD) berkembang setelah mengalami atau menyaksikan trauma. Gejala mencakup flashback, mimpi buruk, dan kecemasan.\n\nTerapi, kelompok dukungan, dan strategi koping dapat membantu. Ingat, penyembuhan adalah perjalanan, dan kamu tidak sendirian. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_sleep_disord">
+        "Gangguan tidur memengaruhi kemampuan Anda untuk mendapatkan istirahat yang nyenyak. Hal ini dapat berdampak pada energi, fokus, dan kesehatan secara keseluruhan.\n\nHigiene tidur yang baik, terapi, dan dukungan medis dapat membantu memulihkan pola tidur Anda. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_OCD">
+        "Gangguan Obsesif-Kompulsif (Obsessive-Compulsive Disorder/OCD) melibatkan pikiran yang tidak diinginkan (obsesi) dan tindakan berulang (kompulsi).\n\nDengan terapi dan dukungan, Anda dapat kembali mengendalikan diri. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_ADHD">
+        "Attention-Deficit/Hyperactivity Disorder (ADHD) adalah kondisi perkembangan saraf yang ditandai dengan kesulitan memusatkan perhatian, hiperaktivitas, dan perilaku impulsif. Kondisi ini dapat memengaruhi kehidupan sehari-hari, pekerjaan, dan hubungan.\n\nADHD dapat dikelola dengan terapi, pengobatan, dan strategi untuk meningkatkan fokus serta keteraturan. Ingat, cara kerja otakmu berbeda, tetapi itu tidak mengurangi nilai dan potensimu. Dukungan selalu tersedia, dan kamu bisa berkembang. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_PDD">
+        "Persistent Depressive Disorder (PDD), atau dikenal sebagai distimia, adalah bentuk depresi kronis dengan gejala seperti suasana hati yang rendah, kelelahan, dan rasa percaya diri yang rendah. Gejala ini dapat berlangsung selama bertahun-tahun, memengaruhi kehidupan sehari-hari dan hubungan sosial.\n\nPengobatan seperti terapi, obat-obatan, dan perubahan gaya hidup dapat membantu mengelola gejala. Ingatlah, penyembuhan itu mungkin, dan kamu pantas mendapatkan dukungan serta kedamaian pikiran. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_ED">
+        "Gangguan makan (Eating Disorder) adalah kondisi mental yang memengaruhi kebiasaan makan seseorang, sering kali terkait dengan citra tubuh dan perasaan terhadap makanan. Jenis gangguan makan termasuk anoreksia, bulimia, dan binge eating disorder. Gejalanya bisa berupa pola makan ekstrem, rasa takut bertambah berat badan, atau obsesi terhadap penampilan tubuh.\n\nGangguan makan dapat diatasi dengan terapi psikologis, konseling nutrisi, dukungan medis, dan dukungan dari orang terdekat. Ingatlah, kamu tidak sendirian dalam perjuangan ini, dan pemulihan itu mungkin. Kamu pantas merasa sehat dan bahagia. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_psychot_depresn">
+        "Depresi psikotik adalah bentuk depresi yang parah yang melibatkan gejala psikosis, seperti halusinasi atau delusi, bersamaan dengan kesedihan dan putus asa dari depresi.\n\nPengobatan meliputi obat-obatan, terapi, dan dukungan dari orang-orang terdekat. Penting untuk mencari bantuan profesional, karena pemulihan itu mungkin dengan dukungan yang tepat. \uD83C\uDF3C"
+    </string>
+    <string name="explanation_mental_health">
+        "Masalah kesehatan mental mencakup berbagai kondisi, seperti kecemasan, depresi, gangguan bipolar, PTSD, dan lainnya. Kondisi ini dapat memengaruhi pikiran, emosi, perilaku, dan kesejahteraan secara keseluruhan. Hal ini dapat dipicu oleh stres, trauma, atau berbagai faktor lainnya.\n\nTetapi ketahuilah bahwa kamu tidak sendirian. Perjuangan kesehatan mental itu nyata, tetapi harapan untuk penyembuhan dan pemulihan pun nyata. Dengan dukungan yang tepat, baik melalui terapi, obat-obatan, perubahan gaya hidup, atau kombinasinya, kamu dapat mengatasi tantangan ini. Lakukan satu langkah demi satu - kamu pantas mendapatkan kedamaian dan kesejahteraan. \uD83C\uDF3C"
+    </string>
+
+    <string name="prediction_text">"Anda menunjukkan memiliki %1$s"</string>
+    <string name="prediction_percentage">"Persentase %1$s%%"</string>
+
+    <string name="skip">Lewati</string>
+
+    <!-- OnBoarding Screen -->
+    <string name="onboarding_main_1">Jelajahi</string>
+    <string name="onboarding_main_2">Temukan</string>
+    <string name="onboarding_main_3">Dapatkan</string>
+    <string name="onboarding_sub_1">Pikiranmu</string>
+    <string name="onboarding_sub_2">Dukungan</string>
+    <string name="onboarding_sub_3">Wawasan</string>
+    <string name="onboarding_desc_1">Analisis isyarat wajah, suara, dan kuesioner yang dirancang oleh ahli secara lokal di perangkat untuk mengungkap pola kesehatan mental dan melacak perkembanganmu.</string>
+    <string name="onboarding_desc_2">Dengan mudah temukan psikiater terpercaya dan profesional kesehatan mental. Perjalanan menuju kesehatan mental yang lebih baik dimulai dengan satu langkah.</string>
+    <string name="onboarding_desc_3">Pelajari kesehatan mental dan gaya hidup melalui konten yang dikurasi. Dapatkan tips dan pengetahuan untuk mendukung perjalananmu menuju kehidupan yang seimbang.</string>
+    <string name="content_description_start_exploring_the_app">Mulai menjelajahi aplikasi</string>
+
+    <string name="alert_empty_image">Gambar tidak boleh kosong!</string>
+    <string name="mental_prediction_result">Hasil analisis</string>
+    <string name="mental_prediction_percentage_result">Persentase</string>
+    <string name="alert_empty_audio">Audio tidak boleh kosong</string>
+    <string name="test_result">Hasil Analisis</string>
+    <string name="age_error_negative">Umur tidak boleh negatif</string>
+    <string name="age_error_exceed">Umur tidak boleh melewati 150</string>
+    <string name="radio_group_error">Tolong pilih salah satu</string>
+    <string name="age_error_empty">Umur tidak boleh kosong</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="sign_up">Daftar</string>
+    <string name="already_have_an_account">Sudah memiliki akun?</string>
+    <string name="login">Login</string>
+    <string name="email_verification_message">Email verifikasi sudah dikirim ke akun anda. Tolong cek email anda untuk mengaktifkan akun.</string>
+    <string name="email_reset_password_message">Email reset password sudah dikirim ke akun anda. Tolong cek email anda untuk mereset password akun.</string>
+    <string name="back_to_login">Kembali ke Login</string>
+    <string name="open_your_email_inbox">Buka email anda</string>
+    <string name="don_t_have_an_account">Tidak memiliki akun?</string>
+
+    <string name="about_us_content">
+        Mentalys adalah solusi inovatif untuk membantu orang memahami kesehatan mental mereka melalui teknologi yang menjaga privasi.\nMenggunakan analisis AI dan Machine Learning di perangkat, kami memberikan pendekatan komprehensif untuk mendeteksi tanda-tanda awal masalah kesehatan mental melalui isyarat wajah, analisis suara, dan kuesioner yang dirancang oleh ahli.\n\nVisi Kami:\nMenjadi aplikasi kesehatan mental nomor satu di Indonesia yang dapat diandalkan masyarakat.\n\nMisi Kami:\n\u2022 Membantu orang mengenali gejala awal gangguan kesehatan mental.\n\u2022 Menyediakan dukungan dan solusi yang mudah diakses untuk menjaga kesehatan mental.\n\u2022 Mengedukasi pengguna untuk peduli terhadap kesehatan mental mereka dan orang-orang terdekat.\n\nDi dunia saat ini, kesehatan mental menjadi semakin penting.\nBanyak individu atau orang di sekitar mereka yang menderita masalah kesehatan mental tanpa menyadarinya.\nMentalys berkomitmen untuk mengatasi masalah ini, membantu lebih banyak orang hidup lebih sehat dan lebih bahagia secara mental.\n\nBersama Mentalys, mari ciptakan masyarakat yang lebih sadar, peduli, dan sehat secara mental.
+    </string>
+    <string name="privacy_policy_content">
+        Di Mentalys, privasi Anda adalah prioritas utama kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan aplikasi kami.\n\nInformasi yang Kami Kumpulkan:\n\u2022 Metadata hasil skrining\n\u2022 Informasi profil akun opsional\n\u2022 Data penggunaan dan informasi perangkat\n\nBagaimana Kami Menggunakan Informasi Anda:\n\u2022 Untuk menganalisis risiko kesehatan mental secara lokal di perangkat Anda.\n\u2022 Untuk menyimpan metadata riwayat skrining saat Anda masuk.\n\u2022 Untuk memberikan wawasan dan rekomendasi yang dipersonalisasi.\n\u2022 Untuk meningkatkan kinerja dan pengalaman pengguna aplikasi.\n\nPerlindungan Data:\nKami tidak mengirim gambar wajah mentah atau rekaman suara mentah ke backend untuk skrining. Data yang disimpan jarak jauh dilindungi dengan kontrol keamanan.\n\nBerbagi Data Anda:\nKami tidak membagikan data pribadi Anda dengan pihak ketiga kecuali diwajibkan oleh hukum atau dengan persetujuan eksplisit dari Anda.\n\nHak Anda:\n\u2022 Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda.\n\u2022 Anda dapat menghubungi kami kapan saja untuk meminta perubahan atau bertanya mengenai data Anda.\n\nPerubahan pada Kebijakan Ini:\nKami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami mendorong Anda untuk meninjaunya secara berkala untuk mengetahui adanya perubahan.\n\nJika Anda memiliki pertanyaan atau kekhawatiran, silakan hubungi kami di support@mentalys.com.
+    </string>
+    <string name="terms_of_service_content">
+        Selamat datang di Mentalys! Dengan menggunakan aplikasi kami, Anda setuju untuk mematuhi dan terikat oleh Syarat dan Ketentuan berikut. Harap baca dengan seksama.\n\n1. Penggunaan Aplikasi:\nMentalys dirancang untuk membantu pengguna memahami kesehatan mental melalui analisis AI dan Machine Learning. Anda setuju untuk menggunakan aplikasi secara bertanggung jawab dan sesuai dengan ketentuan ini.\n\n2. Tanggung Jawab Pengguna:\n\u2022 Anda harus memberikan informasi yang akurat dan benar.\n\u2022 Anda setuju untuk tidak menyalahgunakan aplikasi atau mencoba mengganggu layanan kami.\n\u2022 Anda bertanggung jawab untuk menjaga kerahasiaan akun dan data pribadi Anda.\n\n3. Privasi Data:\nData Anda diproses sesuai dengan Kebijakan Privasi kami. Dengan menggunakan aplikasi ini, Anda menyetujui pengumpulan dan penggunaan data Anda sebagaimana dijelaskan dalam Kebijakan Privasi.\n\n4. Hak Kekayaan Intelektual:\nSemua konten dalam aplikasi Mentalys, termasuk teks, grafik, logo, dan model AI, adalah milik Mentalys dan dilindungi oleh undang-undang hak cipta.\n\n5. Batasan Tanggung Jawab:\nMentalys memberikan wawasan dan rekomendasi kesehatan mental, tetapi tidak menggantikan nasihat medis profesional. Kami tidak bertanggung jawab atas keputusan yang diambil berdasarkan wawasan dari aplikasi.\n\n6. Perubahan Layanan:\nKami dapat memperbarui atau memodifikasi aplikasi kapan saja untuk meningkatkan kinerja, menambah fitur baru, atau mematuhi peraturan.\n\n7. Pengakhiran:\nKami berhak menangguhkan atau menghentikan akses Anda ke aplikasi jika Anda melanggar Syarat dan Ketentuan ini.\n\n8. Hubungi Kami:\nJika Anda memiliki pertanyaan atau kekhawatiran tentang Syarat dan Ketentuan ini, silakan hubungi kami di support@mentalys.com.\n\nDengan menggunakan Mentalys, Anda mengakui bahwa Anda telah membaca, memahami, dan menyetujui Syarat dan Ketentuan ini.
+    </string>
+    <string name="we_will_send_password_recovery_link_to_your_email">Kami akan mengirimkan tautan pemulihan kata sandi ke email Anda</string>
+    <string name="reset_password">Atur Ulang Kata Sandi</string>
+    <string name="reset">Atur Ulang</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="log_in_or_sign_up_to_unlock_your_full_profile_experience">Masuk atau daftar untuk membuka pengalaman profil penuh Anda!</string>
+    <string name="create_account">Buat Akun</string>
+    <string name="reach_out">Reach Out</string>
+    <string name="connect_with_family_or_friends_instantly">Terhubung dengan keluarga atau teman secara instan</string>
+    <string name="mind_care">Mind Care</string>
+    <string name="access_professional_help_fast">Dapatkan bantuan profesional dengan cepat atau hubungi layanan darurat jika diperlukan.</string>
+    <string name="daily_check">Pengecekan Harian</string>
+    <string name="profile">Profil</string>
+    <string name="settings">Pengaturan</string>
+    <string name="general">Umum</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="language">Bahasa</string>
+    <string name="background_music">Musik Latar Belakang</string>
+    <string name="about">Tentang</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="terms_of_service">Syarat Layanan</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="logout">Keluar</string>
+
+    <string name="state_overwhelmed">Kewalahan</string>
+    <string name="state_anxious">Cemas</string>
+    <string name="state_stressed">Stres</string>
+    <string name="state_sad">Sedih</string>
+    <string name="state_lonely">Kesepian</string>
+    <string name="state_hopeless">Putus Asa</string>
+    <string name="state_tired">Lelah</string>
+    <string name="state_frustrated">Frustrasi</string>
+    <string name="state_empty">Hampa</string>
+    <string name="state_lost">Tersesat</string>
+    <string name="state_excited">Bersemangat</string>
+    <string name="state_grateful">Bersyukur</string>
+    <string name="state_hopeful">Penuh Harapan</string>
+
+    <string name="reach_out_message">Hai. Saya sedang merasa %1$s sekarang, dan saya sangat butuh seseorang untuk diajak bicara. Bisakah kamu ada untukku? Itu akan sangat berarti.</string>
+    <string name="how_are_you_feeling">Bagaimana perasaan Anda?</string>
+    <string name="submit">Kirim</string>
+
+    <string name="nearby_clinic">Klinik Terdekat</string>
+    <string name="articles">Daftar Artikel</string>
+    <string name="foods">Daftar Makanan</string>
+
+    <string name="prompt">
+        Anda adalah Mentalys AI, asisten psikoedukasi kesehatan mental yang hati-hati. Buat interpretasi markdown yang detail untuk hasil skrining ini dengan bahasa hangat dan profesional. Jangan mendiagnosis dan jangan mengatakan pengguna mengalami depresi. Jelaskan bahwa ini hanya sinyal skrining awal. Gunakan heading berikut persis: ## Makna Hasil, ## Dampak yang Mungkin Terasa Sehari-hari, ## Rekomendasi Langkah Selanjutnya, ## Kapan Harus Mencari Bantuan, ## Disclaimer Penting. Jangan gunakan emoji atau simbol dekoratif. Sertakan perawatan diri praktis, arahan bantuan profesional, dan kalimat penutup yang memberi harapan. Label skrining: %1$s. Confidence/keparahan: %2$s
+    </string>
+
+    <string name="prompt_voice">
+        Anda adalah Mentalys AI, asisten psikoedukasi kesehatan mental yang hati-hati. Buat interpretasi markdown yang detail untuk hasil skrining suara ini dengan bahasa hangat dan profesional. Jangan mendiagnosis dan jangan mengatakan pengguna mengalami depresi. Jelaskan bahwa nada suara hanya sinyal awal dan harus dipahami bersama gejala harian. Gunakan heading berikut persis: ## Makna Hasil, ## Konteks Suara dan Emosi, ## Rekomendasi Langkah Selanjutnya, ## Kapan Harus Mencari Bantuan, ## Disclaimer Penting. Jangan gunakan emoji atau simbol dekoratif. Sertakan perawatan diri praktis, arahan bantuan profesional, dan kalimat penutup yang memberi harapan. Label skrining: %1$s. Kondisi emosional terdeteksi: %2$s. Confidence/keparahan: %3$s
+    </string>
+
+    <!-- Auth Login -->
+    <string name="error_email_required">Email wajib diisi</string>
+    <string name="error_invalid_email">Format email tidak valid</string>
+
+    <!-- Validasi Password -->
+    <string name="error_password_required">Password wajib diisi</string>
+    <string name="error_password_length">Password harus terdiri dari minimal 8 karakter</string>
+
+    <!-- Validasi Nama Depan -->
+    <string name="error_first_name_required">Nama depan wajib diisi</string>
+
+    <!-- Validasi Nama Belakang -->
+    <string name="error_last_name_required">Nama belakang wajib diisi</string>
+
+    <!-- Validasi Username -->
+    <string name="error_username_required">Username wajib diisi</string>
+
+    <!-- Validasi Nomor Telepon -->
+    <string name="error_phone_number_required">Nomor telepon wajib diisi</string>
+    <string name="error_invalid_phone_number">Format nomor telepon tidak valid. Pilih kode negara, lalu masukkan nomor lokal tanpa angka 0 di depan.</string>
+    <string name="location_permission_required">Izin lokasi diperlukan untuk menampilkan klinik terdekat.</string>
+    <string name="allow_location_permission">Izinkan akses lokasi</string>
+    <string name="no_nearby_clinic_location">Tidak ada lokasi klinik terdekat. Izinkan akses lokasi untuk mencari klinik di sekitar Anda.</string>
+
+    <!-- Validasi Konfirmasi Password -->
+    <string name="error_confirm_password_required">Konfirmasi password wajib diisi</string>
+    <string name="error_passwords_do_not_match">Password tidak cocok</string>
+
+    <string name="error_fill_password">Tolong isi semua form</string>
+
+    <string name="something_went_wrong">Terjadi kesalahan.</string>
+
+    <string name="by_author">"oleh %1$s"</string>
+
+    <string name="error_fetch_data">Gagal mengambil data</string>
+
+    <string name="open">Buka</string>
+    <string name="close">Tutup</string>
+
+    <string name="handwriting_test">Tes Wajah</string>
+    <string name="voice_test">Test Nada Bicara</string>
+    <string name="questionnaire">Kuisionare</string>
+
+    <string name="confidence">"Persentase %1$s"</string>
+
+    <string name="need_permission_to_continure">Izin dibutuhkan untuk melanjutkan</string>
+
+    <string name="failed_to_record">Gagal membuat rekaman</string>
+    <string name="failed_stop_record">Gagal menghentikan rekaman</string>
+    <string name="finish_recordin">Rakaman selesai</string>
+
+    <string name="record_min_15s">Rekam minimal 3 detik</string>
+    <string name="be_patient_please_wait">Tolong tunggu dulu.</string>
+
+    <string name="our_ml_model_predicts_that_you_may_have_signs_of">Model ML kami memprediksi bahwa Anda mungkin memiliki tanda-tanda %1$s</string>
+    <string name="transaction_success">Transaksi Selesai. ID: %1$s</string>
+    <string name="transaction_pending">Transaksi Tertunda. ID: %1$s</string>
+    <string name="transaction_failed">Transaksi Gagal. ID: %1$s</string>
+    <string name="transaction_canceled">Transaksi Dibatalkan</string>
+    <string name="transaction_invalid">Transaksi Tidak Valid. ID: %1$s</string>
+    <string name="transaction_default">ID Transaksi: %1$s. Pesan: %2$s</string>
+    <string name="transaction_invalid_default">Transaksi Tidak Valid</string>
+    <string name="template_message_specialist">Halo, saya ingin mendiskusikan hasil tes kesehatan mental saya dengan Anda. Mohon beri tahu bagaimana langkah selanjutnya.</string>
+    <string name="years_experience">%1$s tahun pengalaman</string>
+    <string name="specialist_reviews">(%1$s ulasan)</string>
+    <string name="create_profile">Buat Profil</string>
+    <string name="find_clinic">Cari Klinik</string>
+    <string name="consult_a_specialist">Konsultasi Spesialis</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="relax_with_music">Relaksasi dengan Musik</string>
+    <string name="relax_with_music_desc">Lepaskan penat dengan kekuatan melodi yang menenangkan. Musik terbukti mengurangi stres, meningkatkan fokus, dan memperbaiki suasana hati.</string>
+    <string name="daily_tips">Tips Harian</string>
+    <string name="home_banner_title">Temukan Tanda-tandanya</string>
+    <string name="home_banner_desc">Gunakan analisis suara, kuis interaktif, dan wawasan wajah untuk memahami dan meningkatkan kesehatan mental Anda dengan Mentalys.</string>
+    <string name="welcome_back">Selamat datang di Mentalys</string>
+    <string name="hello_beautiful">Selamat datang di Mentalys</string>
+    <string name="guest_user">Tamu</string>
+    <string name="generate_ai_recommendation">Buat Rekomendasi AI</string>
+    <string name="mental_health_insights">Wawasan Kesehatan Mental</string>
+    <string name="snaptoken">snaptoken</string>
+    <string name="pay_with_snaptoken">Bayar dengan snaptoken</string>
+    <string name="normal_flow_payment">Pembayaran Alur Normal</string>
+    <string name="start_uikit_sdk">Mulai UI Kit SDK</string>
+    <string name="direct_payment_deeplink">Pembayaran Langsung / Deeplink</string>
+    <string name="credit_card">Kartu Kredit</string>
+    <string name="credit_card_payment">Pembayaran Kartu Kredit</string>
+    <string name="bca_va">BCA VA</string>
+    <string name="mandiri_va_payment">Pembayaran Mandiri VA</string>
+    <string name="permata_va_payment">Pembayaran Permata VA</string>
+    <string name="bni_va_payment">Pembayaran BNI VA</string>
+    <string name="atm_bersama_other_bank_payment">Pembayaran ATM Bersama / Bank Lain</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="date_of_birth">Tanggal Lahir</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="location">Lokasi</string>
+    <string name="delete">Hapus</string>
+    <string name="specialist_detail">Detail Spesialis</string>
+    <string name="mentalys_pedia">Mentalys Pedia</string>
+    <string name="nourish_your_mind">Jaga Kesehatan Pikiran Anda</string>
+    <string name="mental_test_history">Riwayat Tes Mental</string>
+    <string name="male">Laki-Laki</string>
+    <string name="female">Perempuan</string>
+    <string name="min_read">&#9201; %1$s menit baca</string>
+    <string name="share_clicked">Share Diklik</string>
+    <string name="login_to_view_history">Masuk untuk melihat riwayat</string>
+    <string name="login_to_view_history_desc">Anda perlu masuk untuk mengakses riwayat tes mental. Hasil tidak tersedia tanpa akun.</string>
+
+    <string name="musics">Musik</string>
+    <string name="patients">Pasien</string>
+    <string name="years">Tahun</string>
+    <string name="ratings">Peringkat</string>
+    <string name="reviews">Ulasan</string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="working_hours">Jam Praktik</string>
+    <string name="education">Pendidikan</string>
+    <string name="certifications">Sertifikasi</string>
+    <string name="book_appointment">Buat Janji</string>
+    <string name="ai_tips">Tips AI</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="fee">Biaya: </string>
+    <string name="banner_music_text">Nikmati kekuatan melodi yang menenangkan. Musik terbukti dapat mengurangi stres, meningkatkan fokus, dan memperbaiki suasana hati Anda.</string>
+    <string name="banner_music_title">Relaksasi dengan Musik</string>
+    <string name="ok">OK</string>
+    <string name="play_preview">Putar Pratinjau</string>
+    <string name="history">Riwayat</string>
+    <string name="article">Artikel</string>
+    <string name="home">Beranda</string>
+    <string name="test_result2">Hasil Tes: %1$s</string>
+    <string name="confidence2">Kepercayaan: %1$s\%</string>
+    <string name="confidence3">Kepercayaan: %1$s</string>
+    <string name="unknown_result">Hasil tidak diketahui</string>
+    <string name="pause_preview">Jeda Pratinjau</string>
+    <string name="uploaded_by">Diunggah oleh: %1$s</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="cancel">Batal</string>
+    <string name="booking_confirmation">Apakah Anda yakin ingin membuat janji dengan %1$s, %2$s dengan biaya %3$s?</string>
+    <string name="confirm_booking">Konfirmasi Pemesanan</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="confirm_changes">Konfirmasi Perubahan</string>
+    <string name="save_changes_message">Apakah Anda ingin menyimpan perubahan?</string>
+    <string name="no_changes_made">Tidak ada perubahan.</string>
+    <string name="changes_saved">Perubahan disimpan</string>
+    <string name="failed_to_save_changes">Gagal menyimpan perubahan: %1$s</string>
+    <string name="logout_confirmation">Apakah Anda yakin ingin keluar?</string>
+    <string name="whatsapp_is_not_installed_on_your_device">WhatsApp tidak terinstal di perangkat Anda</string>
+
+    <!-- Mental Test Hub -->
+    <string name="screening_title">Skrining Risiko Depresi</string>
+    <string name="screening_subtitle">Selesaikan salah satu atau kombinasi asesmen berikut untuk mendapatkan hasil skrining risiko depresi Anda.</string>
+    <string name="phq9_title">Kuesioner PHQ-9</string>
+    <string name="phq9_description">Jawab 9 pertanyaan tentang suasana hati Anda selama 2 minggu terakhir</string>
+    <string name="face_title">Analisis Ekspresi Wajah</string>
+    <string name="face_description">Pemindaian wajah singkat untuk mendeteksi sinyal emosional</string>
+    <string name="face_guide_position">Arahkan wajah ke bingkai</string>
+    <string name="face_guide_detected">Wajah terdeteksi</string>
+    <string name="voice_title">Analisis Emosi Suara</string>
+    <string name="voice_description">Rekam klip audio singkat untuk mendeteksi nada emosional</string>
+    <string name="status_pending">Belum</string>
+    <string name="status_done">Selesai</string>
+    <string name="btn_start">Mulai</string>
+    <string name="btn_redo">Ulangi</string>
+    <string name="btn_generate_results">Lihat Hasil</string>
+    <string name="screening_modality_info">Selesaikan minimal satu asesmen, lalu ketuk Lihat Hasil</string>
+    <string name="screening_pending_error">Selesaikan minimal satu skrining sebelum melihat hasil.</string>
+    <string name="phq_result_fmt">Skor: %1$d/27 (%2$s)</string>
+
+    <!-- Fusion Result -->
+    <string name="screening_result_title">Hasil Skrining</string>
+    <string name="phq9_score_label">Skor PHQ-9</string>
+    <string name="face_score_label">Skor Ekspresi Wajah</string>
+    <string name="audio_score_label">Skor Suara</string>
+    <string name="final_risk_label">Tingkat Risiko Depresi</string>
+    <string name="risk_minimal">Minimal</string>
+    <string name="risk_mild">Ringan</string>
+    <string name="risk_moderate">Menengah</string>
+    <string name="risk_moderately_severe">Cukup Parah</string>
+    <string name="risk_severe">Parah</string>
+    <string name="risk_high">Tinggi</string>
+    <string name="risk_high_override">Risiko Tinggi – Safety Override</string>
+    <string name="recommendation_section_title">Rekomendasi</string>
+    <string name="recommendation_low"><![CDATA[Hasil skrining Anda menunjukkan tingkat risiko depresi yang minimal saat ini. Ini merupakan tanda yang cukup baik, tetapi kesehatan mental tetap perlu dijaga secara konsisten karena suasana hati dapat berubah akibat stres, kualitas tidur, relasi, tekanan belajar atau kerja, dan kondisi fisik. Usahakan menjaga rutinitas yang stabil, tidur dan bangun pada jam yang teratur, makan dengan cukup, melakukan aktivitas fisik ringan, tetap terhubung dengan orang yang Anda percaya, serta memperhatikan tanda awal seperti sedih berkepanjangan, kehilangan minat, mudah marah, atau sulit menjalani aktivitas harian. Jika keluhan mulai mengganggu fungsi sehari-hari atau berlangsung lebih dari dua minggu, pertimbangkan berkonsultasi dengan psikolog, psikiater, konselor, atau tenaga kesehatan mental berlisensi untuk penilaian yang lebih tepat.]]></string>
+    <string name="recommendation_moderate"><![CDATA[Hasil skrining Anda menunjukkan tingkat risiko depresi sedang, yang berarti ada beberapa pola dari jawaban atau sinyal Anda yang perlu diperhatikan lebih dekat. Ini bukan diagnosis pasti, tetapi dari sudut pandang perawatan klinis, sebaiknya Anda menjadwalkan konsultasi dengan psikolog, psikiater, konselor, atau tenaga kesehatan yang tepercaya, terutama jika suasana hati, tidur, nafsu makan, konsentrasi, motivasi, atau kemampuan menjalani aktivitas harian mulai berubah. Sementara itu, kurangi tekanan yang berlebihan jika memungkinkan, hindari menyendiri terlalu lama, ceritakan kondisi Anda kepada orang yang aman, buat struktur kegiatan harian yang sederhana, dan pantau apakah gejala menjadi lebih kuat atau lebih sering. Dukungan sejak awal dapat membantu mencegah kondisi memburuk dan membantu Anda memahami bentuk perawatan yang paling sesuai.]]></string>
+    <string name="recommendation_high"><![CDATA[Hasil skrining Anda menunjukkan tingkat risiko depresi yang tinggi, sehingga mohon perlakukan hasil ini sebagai sinyal penting untuk mencari dukungan sesegera mungkin. Hasil ini bukan diagnosis formal, tetapi menunjukkan bahwa kondisi Anda saat ini mungkin membutuhkan perhatian langsung dari psikolog, psikiater, tenaga medis darurat, atau penyedia layanan kesehatan yang tepercaya. Jika Anda merasa tidak aman, memiliki pikiran untuk menyakiti diri sendiri, merasa sulit berada sendirian dengan aman, atau merasa keadaan menjadi mendesak, segera hubungi orang yang Anda percaya dan cari bantuan darurat. %1$s. Anda berhak mendapatkan pertolongan tepat waktu, dan meminta bantuan sekarang adalah langkah yang kuat serta bertanggung jawab untuk menjaga keselamatan dan pemulihan Anda.]]></string>
+    <string name="crisis_hotline_fallback">Dukungan Krisis: hubungi nomor darurat setempat atau instalasi gawat darurat terdekat</string>
+    <string name="screening_disclaimer">Ini adalah hasil skrining awal, bukan diagnosis klinis. Harap konsultasikan dengan profesional kesehatan mental untuk penilaian yang tepat.</string>
+    <string name="screening_history_title">Riwayat Skrining</string>
+    <string name="no_screening_history">Belum ada riwayat skrining. Mulai skrining untuk melihat hasilnya di sini.</string>
+    <string name="risk_score_fmt">Skor Risiko: %.2f</string>
+    <string name="history_empty_title">Tidak Ada Riwayat Skrining</string>
+    <string name="history_empty_desc">Selesaikan sesi skrining untuk melihat hasilnya di sini.</string>
+    <string name="delete_history_title">Hapus riwayat tes?</string>
+    <string name="delete_history_message">Apakah Anda yakin ingin menghapus riwayat tes?</string>
+    <string name="history_deleted">Riwayat tes dihapus.</string>
+    <string name="history_delete_failed">Gagal menghapus riwayat tes.</string>
+    <string name="face_label">Wajah</string>
+    <string name="voice_label">Suara</string>
+    <string name="consult_to_professionals">Konsultasi ke Profesional</string>
+    <string name="back_to_home">Kembali ke Beranda</string>
+
+    <!-- PHQ-9 Questions -->
+    <string name="phq9_instruction">Selama 2 minggu terakhir, seberapa sering Anda terganggu oleh masalah berikut?</string>
+    <string name="phq9_q1">Sedikit minat atau kesenangan dalam melakukan sesuatu</string>
+    <string name="phq9_q2">Merasa sedih, tertekan, atau putus asa</string>
+    <string name="phq9_q3">Sulit tidur atau tetap tidur, atau terlalu banyak tidur</string>
+    <string name="phq9_q4">Merasa lelah atau kurang energi</string>
+    <string name="phq9_q5">Nafsu makan buruk atau makan berlebihan</string>
+    <string name="phq9_q6">Merasa buruk tentang diri sendiri - atau merasa diri gagal</string>
+    <string name="phq9_q7">Sulit berkonsentrasi pada hal-hal seperti membaca koran atau menonton televisi</string>
+    <string name="phq9_q8">Bergerak atau berbicara sangat lambat sehingga orang lain memperhatikan, atau sebaliknya - terlalu gelisah</string>
+    <string name="phq9_q9">Pikiran bahwa Anda lebih baik mati, atau ingin menyakiti diri sendiri</string>
+    <string name="phq9_never">Tidak pernah</string>
+    <string name="phq9_several_days">Beberapa hari</string>
+    <string name="phq9_more_than_half">Lebih dari setengah hari</string>
+    <string name="phq9_nearly_every_day">Hampir setiap hari</string>
+
+    <!-- AI Explanation -->
+    <string name="ai_explanation_title">Interpretasi AI</string>
+    <string name="ai_explanation_error">Interpretasi AI tidak tersedia saat ini.</string>
+    <string name="modalities_used_label">Dinilai dengan: %1$s</string>
+    <string name="not_available">T/A</string>
+
+    <!-- AI Chat -->
+    <string name="menu_ask_ai">Tanya AI</string>
+    <string name="ai_chat_title">Mentalys AI Chat</string>
+    <string name="ai_chat_hint">Ketik pesan Anda&#8230;</string>
+    <string name="ai_chat_welcome">Halo! Saya Mentalys AI, asisten kesehatan mental Anda. Saya siap mendengarkan dan memberikan dukungan. Apa yang sedang Anda rasakan hari ini?</string>
+    <string name="ai_chat_welcome_with_history">Halo! Saya Mentalys AI. Saya sudah melihat ringkasan riwayat skrining terbaru Anda agar bisa merespons dengan lebih relevan. Apa yang ingin Anda ceritakan hari ini?</string>
+
+    <!-- Google Sign-In -->
+    <string name="continue_with_google">Lanjutkan dengan Google</string>
+    <string name="google_sign_in_failed">Login Google gagal. Silakan coba lagi.</string>
+    <string name="or">ATAU</string>
+    <string name="fill_all_fields">Harap isi semua kolom</string>
+    <string name="default_web_client_id">204727888032-nnbrblloaqe4nm6bk6t78su86h4e8ah6.apps.googleusercontent.com</string>
+
+    <!-- AI Result Actions -->
+    <string name="ai_retry">Coba Lagi Interpretasi AI</string>
+    <string name="btn_ask_ai">Tanya AI Tentang Hasil Anda</string>
+
+    <!-- Modality UX -->
+    <string name="modality_optional">Opsional</string>
+    <string name="modality_privacy_note">Dianalisis di perangkat. Data Anda tetap pribadi.</string>
+
+    <!-- History -->
+    <string name="risk_score_label">Skor risiko: </string>
+    <string name="phq_score_formatted">%1$d/27 (%2$s)</string>
+    <string name="score_out_of">%1$d / 27</string>
+
+</resources>
