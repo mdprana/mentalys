@@ -127,7 +127,7 @@ app/src/main/java/com/mentalys/app
 └── utils             Preferences, auth token handling, localisation helpers
 ```
 
-The app talks to four backend services on Google Cloud Run:
+The app talks to four backend services on Google Cloud Run. Their source is in [backend-mentalys](https://github.com/mdprana/backend-mentalys), and the training notebooks for the models are in [model-mentalys](https://github.com/mdprana/model-mentalys).
 
 | Service | Responsibility |
 |---|---|
